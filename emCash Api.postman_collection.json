@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "d7574e48-47ba-4f09-a194-f5455fc32c7a",
+		"name": "emCash Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28167627"
+	},
+	"item": [
+		{
+			"name": "Triangle",
+			"item": [
+				{
+					"name": "Add Triangle",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "base",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "altura",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "/routes/triangulo.php",
+							"path": [
+								"routes",
+								"triangulo.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Triangle",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "/routes/triangulo.php?id=0",
+							"path": [
+								"routes",
+								"triangulo.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Rectangle",
+			"item": [
+				{
+					"name": "Add Rectangle",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "base",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "altura",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "/routes/retangulo.php",
+							"path": [
+								"routes",
+								"retangulo.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Rectangle",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "/routes/triangulo.php?id=0",
+							"path": [
+								"routes",
+								"triangulo.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Areas",
+			"item": [
+				{
+					"name": "Area Triangle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "/routes/areaTriangulo.php",
+							"path": [
+								"routes",
+								"areaTriangulo.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Area Rectangle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "/routes/areaRetangulo.php",
+							"path": [
+								"routes",
+								"areaRetangulo.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

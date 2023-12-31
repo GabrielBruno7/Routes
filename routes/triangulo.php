@@ -2,7 +2,7 @@
 include '../config/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Lógica para cadastrar triângulo
+    
     $base = isset($_POST['base']) ? mysqli_real_escape_string($conn, $_POST['base']) : null;
     $altura = isset($_POST['altura']) ? mysqli_real_escape_string($conn, $_POST['altura']) : null;
     $area = $base * $altura/2;
@@ -20,13 +20,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Dados de base e/ou altura ausentes ou inválidos.";
     }
 } elseif ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    // Lógica para obter triângulos
-    // ...
+    
 } elseif ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     $trianguloId = isset($_GET['id']) ? mysqli_real_escape_string($conn, $_GET['id']) : null;
 
     if ($trianguloId !== null) {
-        // Verifique se o ID existe no banco de dados antes de excluir
+        
         $checkSql = "SELECT id FROM triangulo WHERE id = '$trianguloId'";
         $checkResult = $conn->query($checkSql);
 
