@@ -15,11 +15,11 @@ Ele possui as seguintes funcionalidades:
 
 Como executar o projeto:
 
-  - Faça download do XAMP  [https://www.wampserver.com/en/](https://www.apachefriends.org/pt_br/index.html).
-  - Faça download do postman.
+  - Faça download do XAMP -->  [https://www.wampserver.com/en/](https://www.apachefriends.org/pt_br/index.html).
+  - Faça download do postman --> https://www.postman.com/downloads/
   - Clone o repositório https://github.com/GabrielBruno7/emcash.git dentro da pasta htdocs do Xamp.
   - Abra o XAMP e inicie o Apache e Mysql.
-  - Importe o arquivo emCashApi.postman_collection para o postman
+  - Importe o arquivo emCashApi.postman_collection para o postman.
   - Teste as rotas.
 
  ## Rotas
