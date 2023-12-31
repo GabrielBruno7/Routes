@@ -1,0 +1,13 @@
+ROTA ADICIONAR TRIANGULO 
+curl -X POST -d "base=valor_da_base&altura=valor_da_altura" http://localhost/emcash/api/triangulo.php
+
+ROTA DELETAR TRIANGULO 
+curl -X DELETE http://localhost/emcash/api/triangulo.php?id=0
+
+Aonde está "0" definna o id que quer excluir 
+
+ver a area : http://localhost/emcash/api/area.php
+
+
+
+curl -X POST -d "base=valor_da_base&altura=valor_da_altura" http://localhost/emcash/api/retangulo.php
