@@ -19,19 +19,16 @@ Como executar o projeto:
   - Faça download do postman --> https://www.postman.com/downloads/
   - Clone o repositório https://github.com/GabrielBruno7/emcash.git dentro da pasta htdocs do Xamp.
   - Abra o XAMP e inicie o Apache e Mysql.
-  - Importe o arquivo emCashApi.postman_collection para o postman.
-  - Teste as rotas.
+  - Teste as rotas pelo postman ou qualquer outro testador de API's
 
  ## Rotas
 
 | HTTP    |Rota                           |
 |----------------|-------------------------------|
-|POST|`/routes/triangulo.php` - body : base e altura|
-|GET|`/routes/areaTriangulo.php`|
-|DELETE|`/routes/triangulo.php?id=0`|
+|POST|`/triangle` - body : width e length|
+|GET|`/triangle`|
+|DELETE|`/triangle` - body : id|
 ||
-|POST|`/routes/retangulo.php` - body : base e altura|
-|GET|`/routes/areaRetangulo.php`|
-|DELETE|`/routes/retangulo.php?id=0`|
-
-
+|POST|`/rectangle` - body : width e length|
+|GET|`/rectangle`|
+|DELETE|`/rectangle` - body : id|
