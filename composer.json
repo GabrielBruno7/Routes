@@ -1,0 +1,17 @@
+{
+    "name": "admin/simple-routes",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Bruno",
+            "email": "114627827+GabrielBruno7@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5"
+    }
+}

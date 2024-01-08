@@ -1,8 +1,8 @@
-<?php
+<?php 
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "poligonos";
+$database = "geometria";
 
 $conn = new mysqli($host, $username, $password, $database);
 
