@@ -19,7 +19,7 @@ Como executar o projeto:
   - Clone o repositório https://github.com/GabrielBruno7/emcash.git
   - Inicie o servidor : php -S localhost:5000 -t public
   - Teste as rotas pelo postman ou qualquer outro testador de API's
-  *** Acredito que tenha que configurar o banco de dados.***
+  - Acredito que tenha que configurar o banco de dados.
 
  ## Rotas
 
