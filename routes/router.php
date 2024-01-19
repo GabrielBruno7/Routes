@@ -7,7 +7,7 @@ function load(string $controller, string $action){
 
     
 
-    //se o controller existe 
+ 
     $controllerNamespace = "app\\controllers\\{$controller}";
     
     if (!class_exists($controllerNamespace)){
